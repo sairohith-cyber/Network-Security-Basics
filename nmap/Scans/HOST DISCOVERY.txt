@@ -1,0 +1,47 @@
+TASK 7 - HOST DISCOVERY
+
+Command:
+nmap -sn 192.168.233.1/24
+
+Starting Nmap 7.98 at 2026-09-18 13:59 +0530
+
+Host Discovery Result:
+
+Nmap scan report for 192.168.233.0
+Host is up.
+
+Nmap scan report for 192.168.233.1
+Host is up.
+
+Nmap scan report for 192.168.233.2
+Host is up.
+
+Nmap scan report for 192.168.233.3
+Host is up.
+
+Nmap scan report for 192.168.233.4
+Host is up.
+
+Nmap scan report for 192.168.233.5
+Host is up.
+
+Nmap scan report for 192.168.233.6
+Host is up.
+
+Nmap scan report for 192.168.233.7
+Host is up.
+
+Nmap scan report for 192.168.233.8
+Host is up.
+
+Nmap scan report for 192.168.233.9
+Host is up.
+
+Nmap scan report for 192.168.233.10
+Host is up.
+
+[Additional hosts from 192.168.233.11 through 192.168.233.255
+were also reported as up.]
+
+Final Result:
+Nmap done: 256 IP addresses (256 hosts up) scanned in 79.53 seconds.

@@ -1,0 +1,23 @@
+TASK 8 - SERVICE AND VERSION DETECTION
+
+Command:
+nmap -sV 192.168.233.1
+
+Starting Nmap 7.98 at 2026-09-20 14:24 +0530
+
+Nmap scan report for 192.168.233.1
+
+Host is up (0.00295s latency).
+
+Not shown: 997 filtered tcp ports (no-response)
+
+PORT     STATE    SERVICE       VERSION
+
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open     microsoft-ds  ?
+
+Service Info:
+Microsoft Windows
+
+Service detection performed.

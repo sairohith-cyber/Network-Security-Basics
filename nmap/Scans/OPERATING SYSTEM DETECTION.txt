@@ -1,0 +1,48 @@
+TASK 8 - OPERATING SYSTEM DETECTION
+
+Command:
+nmap -O 192.168.233.1
+
+Starting Nmap 7.98 at 2026-09-20 14:25 +0530
+
+Nmap scan report for 192.168.233.1
+
+Host is up (0.00185s latency).
+
+Not shown: 997 filtered tcp ports (no-response)
+
+PORT     STATE    SERVICE
+
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+445/tcp  open     microsoft-ds
+
+Warning:
+OSScan results may be unreliable because we could not find at least
+1 open and 1 closed port.
+
+Device type:
+bridge/VoIP adapter/general purpose
+
+Running (JUST GUESSING):
+Oracle VirtualBox (98%)
+Slirp (98%)
+AT&T embedded (94%)
+QEMU (93%)
+
+OS CPE:
+cpe:/o:oracle:virtualbox
+cpe:/a:danny_gasparovski:slirp
+cpe:/a:qemu:qemu
+
+Aggressive OS guesses:
+Oracle VirtualBox Slirp NAT bridge (98%)
+AT&T BGW210 voice gateway (94%)
+QEMU user mode network (93%)
+
+No exact OS matches for host
+(test conditions non-ideal).
+
+OS detection performed.
+
+Nmap done: 1 IP address (1 host up) scanned in 11.60 seconds.

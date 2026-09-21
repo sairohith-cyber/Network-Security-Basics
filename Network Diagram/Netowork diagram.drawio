@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="6I4SCDLerbC9iBgOKNQc">
+    <mxGraphModel dx="1030" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Q_BcfEoS5reuIaKOVpj-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;br&gt;Physical Windows&amp;nbsp;&lt;br&gt;Host/Lab&amp;nbsp;&lt;div&gt;&lt;br&gt;192.168.233.1&amp;nbsp;&lt;div&gt;&lt;br&gt;&amp;nbsp;TCP 135&amp;nbsp;&lt;br&gt;&amp;nbsp;TCP 139&amp;nbsp;&lt;br&gt;&amp;nbsp;TCP 445&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="220" x="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q_BcfEoS5reuIaKOVpj-3" edge="1" parent="1" source="5Q_BcfEoS5reuIaKOVpj-2" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="370" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Q_BcfEoS5reuIaKOVpj-4" parent="1" style="text;whiteSpace=wrap;html=1;" value="Host-Only Network&#xa;                    192.168.233.0/24" vertex="1">
+          <mxGeometry height="50" width="130" x="310" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q_BcfEoS5reuIaKOVpj-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;&lt;div&gt;Kali Linux&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Security Scanner&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nmap + Wireshark&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="220" x="265" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="5Q_BcfEoS5reuIaKOVpj-8" edge="1" parent="1" source="5Q_BcfEoS5reuIaKOVpj-5" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" target="5Q_BcfEoS5reuIaKOVpj-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
