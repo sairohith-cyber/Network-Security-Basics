@@ -92,14 +92,3 @@ Windows Firewall rules were configured to restrict:
 Before and after Nmap results are included in the `04-Hardening`
 directory.
 
-## Project Structure
-
-```text
-01-Nmap/
-02-Wireshark/
-03-Vulnerability-Assessment/
-04-Hardening/
-Network-Diagram/
-Reports/
-Presentation/
-Evidence/
